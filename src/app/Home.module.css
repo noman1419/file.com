@@ -1,0 +1,103 @@
+/* index css  */
+.evia{
+    color: #32C5FF;
+}
+.dt{
+    color: #0191FF;
+}
+
+
+/* ./ index css */
+
+/* navbar css */
+.contanier{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 60px;
+    background-color: rgb(55 65 81);
+}
+.contanier .evia{
+    text-decoration: none;
+    font-size: 25px;
+    align-self: center;
+    font-weight: 600;
+    color: #32C5FF;
+}
+.contanier .evia .dt{
+    color: #0191FF;
+}
+.contanier .navbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+.contanier .navbtn .link{
+    text-decoration: none;
+    color: #FFF;
+    padding: 15px 7px;
+    font-size: 1.2rem;
+}
+.contanier .navbtn .link:hover{
+    color: black;
+}
+.active{
+    color: black;
+    padding: 18px 7px;
+    text-decoration: none;
+    border-bottom:2px solid #32C5FF; 
+    font-size: 1.2rem;
+}
+.active:hover{
+    color: black;
+}
+.contanier .search{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    display: none;
+}
+.contanier .search:hover{
+    color: #fff;    
+}
+@media screen and (max-width: 580px) {
+    .contanier{
+        width: 95%;
+    }
+    .contanier .evia{
+        display: none;
+    }
+    .contanier .search{
+        display: none;
+    }
+    .contanier .navbtn .link{
+        font-size: 1rem;
+    }
+    .active{
+        font-size: 1rem;
+    }
+}
+/* ./ navbar css */
+.hline{
+    height: 1px;
+    background-color: #e5e7eb7c;
+    width: 60%;
+    margin: auto;
+    margin: 0;  
+}
+.hrline{
+    margin: 0;
+    width: 50%;
+    margin: auto;
+    background: #111827 !important;
+}
+.stages{
+    font-size: 2rem;
+    color: #FFF;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 700;
+}
